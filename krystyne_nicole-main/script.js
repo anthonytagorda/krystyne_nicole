@@ -20,4 +20,8 @@ noBtn.addEventListener("mouseover", () => {
 
   noBtn.style.left = randomX + "px";
   noBtn.style.top = randomY + "px";
+
+  question.innerHTML = "Aww you caught it, say yes! :<";
+  gif.src = "images/sad-bear.gif";
+  gif.loop = true;
 });
